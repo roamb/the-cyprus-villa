@@ -22,11 +22,11 @@ export function Hero() {
         </div>
 
         <div className="mx-auto mt-8 w-full max-w-[calc(100vw-32px)] text-center sm:mt-14 sm:max-w-4xl lg:mt-6 xl:mt-5">
-          <h1 className="text-[clamp(3rem,13vw,5rem)] font-medium leading-[0.9] break-normal sm:text-7xl lg:text-[64px] xl:text-[72px] 2xl:text-[80px]">
-            <span className="block lg:whitespace-nowrap">
+          <h1 className="font-medium leading-[0.9]">
+            <span className="block whitespace-nowrap text-[clamp(1.8rem,7.7vw,3.6rem)] sm:text-7xl lg:text-[64px] xl:text-[72px] 2xl:text-[80px]">
               Mediterranean Living
             </span>
-            <span className="block lg:whitespace-nowrap">
+            <span className="block whitespace-nowrap text-[clamp(2.25rem,9.6vw,4.5rem)] sm:text-7xl lg:text-[64px] xl:text-[72px] 2xl:text-[80px]">
               Without Compromise
             </span>
           </h1>
