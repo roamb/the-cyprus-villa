@@ -21,12 +21,12 @@ export function Hero() {
           />
         </div>
 
-        <div className="mx-auto mt-8 max-w-4xl text-center sm:mt-14 lg:mt-6 xl:mt-5">
-          <h1 className="text-5xl font-medium leading-[0.96] sm:text-7xl lg:text-[64px] xl:text-[72px] 2xl:text-[80px]">
-            <span className="block lg:whitespace-nowrap">
+        <div className="mx-auto mt-8 w-full max-w-4xl text-center sm:mt-14 lg:mt-6 xl:mt-5">
+          <h1 className="text-[42px] font-medium leading-[0.96] sm:text-7xl lg:text-[64px] xl:text-[72px] 2xl:text-[80px]">
+            <span className="block whitespace-nowrap">
               Mediterranean Living
             </span>
-            <span className="block lg:whitespace-nowrap">
+            <span className="block whitespace-nowrap">
               Without Compromise
             </span>
           </h1>
