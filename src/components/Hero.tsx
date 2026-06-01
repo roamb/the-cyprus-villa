@@ -9,9 +9,9 @@ export function Hero() {
           T C V
         </p>
 
-        <div className="mt-12 w-full overflow-hidden bg-neutral-100 sm:mt-16 lg:mt-12 lg:max-w-[760px] xl:max-w-[880px] 2xl:max-w-[960px]">
+        <div className="mt-9 w-full overflow-hidden bg-neutral-100 sm:mt-16 lg:mt-12 lg:max-w-[760px] xl:max-w-[880px] 2xl:max-w-[960px]">
           <video
-            className="aspect-[4/5] w-full object-cover sm:aspect-[16/10] lg:aspect-[16/9]"
+            className="aspect-[1/1] w-full object-cover sm:aspect-[16/10] lg:aspect-[16/9]"
             src="/media/hero/tcv-loop.webm"
             autoPlay
             muted
@@ -21,7 +21,7 @@ export function Hero() {
           />
         </div>
 
-        <div className="mx-auto mt-10 max-w-4xl text-center sm:mt-14 lg:mt-6 xl:mt-5">
+        <div className="mx-auto mt-8 max-w-4xl text-center sm:mt-14 lg:mt-6 xl:mt-5">
           <h1 className="text-5xl font-medium leading-[0.96] sm:text-7xl lg:text-[64px] xl:text-[72px] 2xl:text-[80px]">
             <span className="block lg:whitespace-nowrap">
               Mediterranean Living
