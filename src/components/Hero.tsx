@@ -3,11 +3,13 @@ import { FadeIn } from "./FadeIn";
 
 export function Hero() {
   return (
-    <section className="min-h-svh bg-white px-4 pb-[clamp(1rem,2.4svh,2.5rem)] pt-[clamp(2rem,4svh,3rem)] text-black sm:px-8 lg:px-12 lg:pb-10 lg:pt-14">
+    <section className="min-h-svh bg-white px-4 pb-[clamp(1rem,2.4svh,2.5rem)] pt-0 text-black sm:px-8 lg:px-12 lg:pb-10 lg:pt-14">
       <FadeIn className="mx-auto flex min-h-[calc(100svh_-_clamp(3rem,6.4svh,5.5rem))] max-w-6xl flex-col items-center justify-between gap-[clamp(1rem,2.8svh,2rem)] lg:min-h-0 lg:justify-start lg:gap-0">
-        <p className="text-center text-[15px] font-medium leading-none tracking-[0.92em] sm:text-base sm:tracking-[1.05em]">
-          T C V
-        </p>
+        <div className="flex h-[clamp(120px,18svh,170px)] w-full items-center justify-center lg:contents">
+          <p className="text-center text-[18px] font-medium leading-none tracking-[0.92em] sm:text-[19px] sm:tracking-[1.05em] lg:text-base">
+            T C V
+          </p>
+        </div>
 
         <div className="w-full max-w-[620px] overflow-hidden bg-neutral-100 sm:max-w-[760px] lg:mt-12 lg:max-w-[760px] xl:max-w-[880px] 2xl:max-w-[960px]">
           <video
