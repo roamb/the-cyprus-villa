@@ -11,7 +11,7 @@ export function Hero() {
 
         <div className="mt-9 w-full overflow-hidden bg-neutral-100 sm:mt-16 lg:mt-12 lg:max-w-[760px] xl:max-w-[880px] 2xl:max-w-[960px]">
           <video
-            className="aspect-[1/1] w-full object-cover sm:aspect-[16/10] lg:aspect-[16/9]"
+            className="aspect-video w-full object-cover sm:aspect-[16/10] lg:aspect-[16/9]"
             src="/media/hero/tcv-loop.webm"
             autoPlay
             muted
